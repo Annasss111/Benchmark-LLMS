@@ -1,0 +1,11 @@
+--- a/django/db/backends/base/operations.py
++++ b/django/db/backends/base/operations.py
+@@ -3,6 +3,8 @@
+ from importlib import import_module
+ 
+ import sqlparse
++from django.utils.regex_helper import _lazy_re_compile
++extract_trunc_lookup_pattern = _lazy_re_compile(r"[\w\-_()]+")
+ 
+ from django.conf import settings
+ from django.db import NotSupportedError, transaction
