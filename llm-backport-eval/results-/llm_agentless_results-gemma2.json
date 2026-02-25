@@ -1,0 +1,998 @@
+{
+    "success": [
+        "uaa_1297",
+        "uaa_1300",
+        "uaa_1304",
+        "tomcat_797",
+        "tomcat_798",
+        "django_291",
+        "django_294",
+        "django_295",
+        "tomcat_819",
+        "tomcat_823",
+        "django_318",
+        "tomcat_830",
+        "tomcat_832",
+        "django_330",
+        "django_331",
+        "django_339",
+        "keystone_341",
+        "tomcat_856",
+        "django_354",
+        "django_386",
+        "django_387",
+        "django_388",
+        "xwiki-platform_1413",
+        "keystone_393",
+        "wagtail_401",
+        "wagtail_402",
+        "django_419",
+        "django_422",
+        "django_424",
+        "django_442",
+        "django_444",
+        "django_445",
+        "tomcat_981",
+        "tomcat_983",
+        "django_477",
+        "tomcat_993",
+        "django_484",
+        "django_485",
+        "django_528",
+        "django_531",
+        "vite_31",
+        "vite_37",
+        "django_550",
+        "glance_554",
+        "uaa_1076",
+        "uaa_1078",
+        "uaa_1086",
+        "django_582",
+        "django_590",
+        "django_592",
+        "django_606",
+        "django_617",
+        "django_618",
+        "django_621",
+        "keystone_672",
+        "django_681",
+        "django_687",
+        "tomcat_1214",
+        "tomcat_1215",
+        "tomcat_1216",
+        "tomcat_1222",
+        "tomcat_1226",
+        "django_206",
+        "django_207"
+    ],
+    "fail": [
+        "django_275",
+        "django_277",
+        "uaa_1303",
+        "django_281",
+        "uaa_1313",
+        "uaa_1314",
+        "django_309",
+        "django_311",
+        "tomcat_834",
+        "tomcat_835",
+        "django_342",
+        "django_343",
+        "django_353",
+        "django_371",
+        "tomcat_1416",
+        "django_408",
+        "django_409",
+        "django_414",
+        "django_416",
+        "django_421",
+        "uaa_1450",
+        "django_430",
+        "uaa_1459",
+        "uaa_1461",
+        "django_441",
+        "django_462",
+        "django_465",
+        "glance_468",
+        "tomcat_980",
+        "tomcat_994",
+        "django_530",
+        "django_558",
+        "django_559",
+        "uaa_1088",
+        "django_620",
+        "django_645",
+        "glance_649",
+        "quarkus_700",
+        "django_193",
+        "quarkus_702",
+        "django_211"
+    ],
+    "apply_fail": 38,
+    "errors": 1,
+    "empty_patch": 0,
+    "details": {
+        "django_268": "apply_fail",
+        "django_269": "apply_fail",
+        "django_270": "apply_fail",
+        "uaa_1297": {
+            "status": "success",
+            "expected": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/util/TokenValidationTest.java"],
+            "actual": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/util/TokenValidationTest.java"]
+        },
+        "django_275": {
+            "status": "fail",
+            "expected": ["admin_docs.test_views.AdminDocViewDefaultEngineOnly.test_template_detail_path_traversal"],
+            "actual": []
+        },
+        "uaa_1300": {
+            "status": "success",
+            "expected": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/util/TokenValidationTest.java"],
+            "actual": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/util/TokenValidationTest.java"]
+        },
+        "django_277": {
+            "status": "fail",
+            "expected": ["admin_docs.test_views.AdminDocViewDefaultEngineOnly.test_template_detail_path_traversal"],
+            "actual": []
+        },
+        "uaa_1303": {
+            "status": "fail",
+            "expected": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/util/TokenValidationTest.java"],
+            "actual": []
+        },
+        "uaa_1304": {
+            "status": "success",
+            "expected": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/util/TokenValidationTest.java"],
+            "actual": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/util/TokenValidationTest.java"]
+        },
+        "django_281": {
+            "status": "fail",
+            "expected": [
+                "model_forms.tests.OldFormForXTests.test_clean_does_deduplicate_values",
+                "model_forms.tests.OldFormForXTests.test_show_hidden_initial_changed_queries_efficiently"
+            ],
+            "actual": []
+        },
+        "uaa_795": "apply_fail",
+        "uaa_796": "apply_fail",
+        "tomcat_797": {
+            "status": "success",
+            "expected": ["testTEHeaderUnknown01", "testTEHeaderUnknown02"],
+            "actual": ["testTEHeaderUnknown01", "testTEHeaderUnknown02"]
+        },
+        "tomcat_798": {
+            "status": "success",
+            "expected": ["testTEHeaderUnknown01", "testTEHeaderUnknown02"],
+            "actual": ["testTEHeaderUnknown01", "testTEHeaderUnknown02"]
+        },
+        "uaa_1313": {
+            "status": "fail",
+            "expected": [
+                ":cloudfoundry-identity-server:compileTestJava/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/security/X509ExpiryCheckingTrustManagerTest.java",
+                "/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/provider/ldap/ProcessLdapPropertiesTest.java",
+                "/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/security/X509ExpiryCheckingTrustManagerTest.java"
+            ],
+            "actual": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/provider/ldap/ProcessLdapPropertiesTest.java"]
+        },
+        "django_291": {
+            "status": "success",
+            "expected": ["i18n.tests.FormattingTests.test_format_arbitrary_settings"],
+            "actual": ["i18n.tests.FormattingTests.test_format_arbitrary_settings"]
+        },
+        "uaa_1314": {
+            "status": "fail",
+            "expected": [
+                ":cloudfoundry-identity-server:compileTestJava/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/security/X509ExpiryCheckingTrustManagerTest.java",
+                "/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/provider/ldap/ProcessLdapPropertiesTest.java",
+                "/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/security/X509ExpiryCheckingTrustManagerTest.java"
+            ],
+            "actual": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/provider/ldap/ProcessLdapPropertiesTest.java"]
+        },
+        "django_294": {
+            "status": "success",
+            "expected": ["i18n.tests.FormattingTests.test_format_arbitrary_settings"],
+            "actual": ["i18n.tests.FormattingTests.test_format_arbitrary_settings"]
+        },
+        "django_295": {
+            "status": "success",
+            "expected": ["i18n.tests.FormattingTests.test_format_arbitrary_settings"],
+            "actual": ["i18n.tests.FormattingTests.test_format_arbitrary_settings"]
+        },
+        "tomcat_819": {
+            "status": "success",
+            "expected": ["testWithTEChunkedHttp10"],
+            "actual": ["testWithTEChunkedHttp10"]
+        },
+        "django_308": "apply_fail",
+        "django_309": {
+            "status": "fail",
+            "expected": ["utils_tests.test_encoding.TestEncodingUtils.test_repercent_broken_unicode_small_fragments"],
+            "actual": []
+        },
+        "tomcat_823": {
+            "status": "success",
+            "expected": ["testWithTEChunkedHttp10"],
+            "actual": ["testWithTEChunkedHttp10", "testSlowUploadTimeoutWithoutLongerUploadTimeout"]
+        },
+        "django_311": {
+            "status": "fail",
+            "expected": ["utils_tests.test_encoding.TestEncodingUtils.test_repercent_broken_unicode_small_fragments"],
+            "actual": []
+        },
+        "django_318": {
+            "status": "success",
+            "expected": [
+                "WSGIRequestHandler ignores headers containing underscores.",
+                "servers.test_basehttp.WSGIRequestHandlerTestCase.test_strips_underscore_headers"
+            ],
+            "actual": [
+                "WSGIRequestHandler ignores headers containing underscores.",
+                "servers.test_basehttp.WSGIRequestHandlerTestCase.test_strips_underscore_headers"
+            ]
+        },
+        "tomcat_830": {
+            "status": "success",
+            "expected": ["testTEHeaderChunkedNotLast01"],
+            "actual": ["testTEHeaderChunkedNotLast01"]
+        },
+        "tomcat_832": {
+            "status": "success",
+            "expected": ["testTEHeaderChunkedNotLast01"],
+            "actual": ["testTEHeaderChunkedNotLast01"]
+        },
+        "tomcat_834": {
+            "status": "fail",
+            "expected": ["testImplicitCloseLargeId"],
+            "actual": []
+        },
+        "tomcat_835": {
+            "status": "fail",
+            "expected": ["testImplicitCloseLargeId[0]"],
+            "actual": []
+        },
+        "django_324": "apply_fail",
+        "django_330": {
+            "status": "success",
+            "expected": [
+                "template_tests.filter_tests.test_dictsort.FunctionTests.test_property_resolver",
+                "template_tests.filter_tests.test_dictsortreversed.FunctionTests.test_invalid_args",
+                "template_tests.filter_tests.test_dictsort.FunctionTests.test_invalid_args"
+            ],
+            "actual": [
+                "template_tests.filter_tests.test_dictsort.FunctionTests.test_property_resolver",
+                "template_tests.filter_tests.test_dictsortreversed.FunctionTests.test_invalid_args",
+                "Fail silently if invalid lookups are passed.",
+                "template_tests.filter_tests.test_dictsort.FunctionTests.test_invalid_args"
+            ]
+        },
+        "django_331": {
+            "status": "success",
+            "expected": [
+                "Fail silently if invalid lookups are passed.",
+                "template_tests.filter_tests.test_dictsortreversed.FunctionTests.test_invalid_args",
+                "template_tests.filter_tests.test_dictsort.FunctionTests.test_property_resolver",
+                "template_tests.filter_tests.test_dictsort.FunctionTests.test_invalid_args"
+            ],
+            "actual": [
+                "template_tests.filter_tests.test_dictsort.FunctionTests.test_property_resolver",
+                "template_tests.filter_tests.test_dictsortreversed.FunctionTests.test_invalid_args",
+                "Fail silently if invalid lookups are passed.",
+                "template_tests.filter_tests.test_dictsort.FunctionTests.test_invalid_args"
+            ]
+        },
+        "django_339": {
+            "status": "success",
+            "expected": [
+                "regressiontests.admin_widgets.tests.AdminFileWidgetTest.test_render_escapes_html",
+                "regressiontests.admin_widgets.tests.AdminFileWidgetTest.Trying '/django/tests/regressiontests/atest_render_escapes_html"
+            ],
+            "actual": [
+                "regressiontests.admin_widgets.tests.AdminFileWidgetTest.test_render_escapes_html",
+                "regressiontests.admin_widgets.tests.AdminFileWidgetTest.Trying '/django/tests/regressiontests/atest_render_escapes_html"
+            ]
+        },
+        "keystone_341": {
+            "status": "success",
+            "expected": [
+                "keystone.tests.unit.catalog.test_core.FormatUrlTests.test_raises_malformed_on_wrong_type",
+                "keystone.tests.unit.catalog.test_core.FormatUrlTests.test_raises_malformed_on_incomplete_format",
+                "keystone.tests.unit.catalog.test_core.FormatUrlTests.test_successful_formatting",
+                "keystone.tests.unit.catalog.test_core.FormatUrlTests.test_substitution_with_key_not_whitelisted",
+                "keystone.tests.unit.catalog.test_core.FormatUrlTests.test_raises_malformed_on_missing_key"
+            ],
+            "actual": [
+                "keystone.tests.unit.catalog.test_core.FormatUrlTests.test_raises_malformed_on_wrong_type",
+                "keystone.tests.unit.catalog.test_core.FormatUrlTests.test_raises_malformed_on_incomplete_format",
+                "keystone.tests.unit.catalog.test_core.FormatUrlTests.test_successful_formatting",
+                "keystone.tests.unit.catalog.test_core.FormatUrlTests.test_substitution_with_key_not_whitelisted",
+                "keystone.tests.unit.catalog.test_core.FormatUrlTests.test_raises_malformed_on_missing_key"
+            ]
+        },
+        "django_342": {
+            "status": "fail",
+            "expected": ["responses.test_fileresponse.FileResponseTests.test_content_disposition_escaping"],
+            "actual": []
+        },
+        "django_343": {
+            "status": "fail",
+            "expected": ["responses.test_fileresponse.FileResponseTests.test_content_disposition_escaping"],
+            "actual": []
+        },
+        "tomcat_856": {
+            "status": "success",
+            "expected": ["testPathParam"],
+            "actual": ["testPathParam"]
+        },
+        "django_353": {
+            "status": "fail",
+            "expected": [
+                "django.contrib.auth.tests.views.LogoutTest.test_security_check",
+                "django.contrib.auth.tests.views.LoginTest.test_security_check"
+            ],
+            "actual": []
+        },
+        "django_354": {
+            "status": "success",
+            "expected": [
+                "django.contrib.auth.tests.views.LogoutTest.test_security_check",
+                "django.contrib.auth.tests.views.LoginTest.test_security_check"
+            ],
+            "actual": [
+                "django.contrib.auth.tests.views.LogoutTest.test_security_check",
+                "django.contrib.auth.tests.views.LoginTest.test_security_check"
+            ]
+        },
+        "django_371": {
+            "status": "fail",
+            "expected": [
+                "view_tests.tests.py3_test_debug.Py3ExceptionReporterTests.  Applying sites.0002_alter_domain_unique...test_reporting_of_nested_exceptions",
+                "view_tests.tests.py3_test_debug.Py3ExceptionReporterTests.test_reporting_of_nested_exceptions"
+            ],
+            "actual": []
+        },
+        "django_386": {
+            "status": "success",
+            "expected": ["unittest.loader._FailedTest.i18n.tests"],
+            "actual": ["unittest.loader._FailedTest.i18n.tests"]
+        },
+        "django_387": {
+            "status": "success",
+            "expected": ["regressiontests.urlpatterns_reverse.tests.URLPatternReverse.test_urlpattern_reverse"],
+            "actual": ["regressiontests.urlpatterns_reverse.tests.URLPatternReverse.test_urlpattern_reverse"]
+        },
+        "django_388": {
+            "status": "success",
+            "expected": ["regressiontests.urlpatterns_reverse.tests.URLPatternReverse.test_urlpattern_reverse"],
+            "actual": ["regressiontests.urlpatterns_reverse.tests.URLPatternReverse.test_urlpattern_reverse"]
+        },
+        "xwiki-platform_1413": {
+            "status": "success",
+            "expected": [
+                "com.xpn.xwiki.pdf.impl.PdfExportImplTest.applyPDFTemplateWithoutScriptRights",
+                "com.xpn.xwiki.pdf.impl.PdfExportImplTest.applyPDFTemplateWithAuthorExecutor"
+            ],
+            "actual": [
+                "com.xpn.xwiki.pdf.impl.PdfExportImplTest.applyPDFTemplateWithoutScriptRights",
+                "com.xpn.xwiki.pdf.impl.PdfExportImplTest.applyPDFTemplateWithAuthorExecutor"
+            ]
+        },
+        "xwiki-platform_1415": "apply_fail",
+        "tomcat_1416": {
+            "status": "fail",
+            "expected": ["testBug60409"],
+            "actual": []
+        },
+        "keystone_393": {
+            "status": "success",
+            "expected": [
+                "keystone.tests.unit.test_auth.FernetAuthWithToken.test_revoke_by_audit_chain_id_chained_token",
+                "keystone.tests.unit.test_auth.FernetAuthWithToken.test_only_original_audit_id_is_kept",
+                "keystone.tests.unit.test_auth.FernetAuthWithToken.test_revoke_by_audit_chain_id_original_token",
+                "keystone.tests.unit.test_auth.FernetAuthWithToken.test_auth_unscoped_token_no_project"
+            ],
+            "actual": [
+                "keystone.tests.unit.test_auth.FernetAuthWithToken.test_revoke_by_audit_chain_id_chained_token",
+                "keystone.tests.unit.test_auth.FernetAuthWithToken.test_only_original_audit_id_is_kept",
+                "keystone.tests.unit.test_auth.FernetAuthWithToken.test_revoke_by_audit_chain_id_original_token",
+                "keystone.tests.unit.test_auth.FernetAuthWithToken.test_auth_unscoped_token_no_project"
+            ]
+        },
+        "wagtail_401": {
+            "status": "success",
+            "expected": ["wagtail.users.tests.test_bulk_actions.test_bulk_delete.TestUserDeleteView.test_user_permissions_required"],
+            "actual": ["wagtail.users.tests.test_bulk_actions.test_bulk_delete.TestUserDeleteView.test_user_permissions_required"]
+        },
+        "wagtail_402": {
+            "status": "success",
+            "expected": ["wagtail.users.tests.test_bulk_actions.test_bulk_delete.TestUserDeleteView.test_user_permissions_required"],
+            "actual": ["wagtail.users.tests.test_bulk_actions.test_bulk_delete.TestUserDeleteView.test_user_permissions_required"]
+        },
+        "django_408": {
+            "status": "fail",
+            "expected": [
+                "auth_tests.test_hashers.TestUtilsHashPass.test_check_password_calls_harden_runtime",
+                "auth_tests.test_hashers.TestUtilsHashPass.test_pbkdf2_harden_runtime"
+            ],
+            "actual": []
+        },
+        "django_409": {
+            "status": "fail",
+            "expected": [
+                "auth_tests.test_hashers.TestUtilsHashPass.test_check_password_calls_harden_runtime",
+                "auth_tests.test_hashers.TestUtilsHashPass.test_pbkdf2_harden_runtime"
+            ],
+            "actual": []
+        },
+        "django_414": {
+            "status": "fail",
+            "expected": [
+                "cache.tests.FileBasedCacheTests.test_cache_dir_permissions",
+                "cache.tests.FileBasedCachePathLibTests.test_cache_dir_permissions"
+            ],
+            "actual": []
+        },
+        "django_416": {
+            "status": "fail",
+            "expected": ["cache.tests.FileBasedCacheTests.test_cache_dir_permissions"],
+            "actual": []
+        },
+        "uaa_1443": "apply_fail",
+        "django_419": {
+            "status": "success",
+            "expected": ["utils_tests.test_archive.TestArchiveInvalid.test_extract_function_traversal"],
+            "actual": ["utils_tests.test_archive.TestArchiveInvalid.test_extract_function_traversal"]
+        },
+        "uaa_1445": "apply_fail",
+        "django_422": {
+            "status": "success",
+            "expected": ["utils_tests.test_archive.TestArchiveInvalid.test_extract_function_traversal"],
+            "actual": ["utils_tests.test_archive.TestArchiveInvalid.test_extract_function_traversal"]
+        },
+        "django_421": {
+            "status": "fail",
+            "expected": ["utils_tests.test_archive.TestArchiveInvalid.test_extract_function_traversal"],
+            "actual": []
+        },
+        "django_424": {
+            "status": "success",
+            "expected": [
+                "regressiontests.admin_views.tests.CustomModelAdminTest.test_disallowed_filtering",
+                "regressiontests.admin_views.tests.AdminViewBasicTest.test_disallowed_filtering"
+            ],
+            "actual": [
+                "regressiontests.admin_views.tests.CustomModelAdminTest.test_disallowed_filtering",
+                "regressiontests.admin_views.tests.AdminViewBasicTest.test_disallowed_filtering"
+            ]
+        },
+        "uaa_1450": {
+            "status": "fail",
+            "expected": ["org.cloudfoundry.identity.uaa.web.UaaSavedRequestAwareAuthenticationSuccessHandlerTests > invalidFormRedirectIsNotReturned"],
+            "actual": []
+        },
+        "django_430": {
+            "status": "fail",
+            "expected": [
+                "regressiontests.forms.tests.formsets.FormsFormsetTestCase.test_basic_formset",
+                "regressiontests.forms.tests.formsets.FormsFormsetTestCase.test_increase_hard_limit",
+                "regressiontests.forms.tests.formsets.FormsFormsetTestCase.test_hard_limit_on_instantiated_forms"
+            ],
+            "actual": []
+        },
+        "uaa_1459": {
+            "status": "fail",
+            "expected": ["org.cloudfoundry.identity.uaa.web.UaaSavedRequestAwareAuthenticationSuccessHandlerTests > invalidFormRedirectIsNotReturned"],
+            "actual": []
+        },
+        "uaa_1461": {
+            "status": "fail",
+            "expected": ["org.cloudfoundry.identity.uaa.web.UaaSavedRequestAwareAuthenticationSuccessHandlerTests > invalidFormRedirectIsNotReturned"],
+            "actual": []
+        },
+        "uaa_1463": "apply_fail",
+        "django_441": {
+            "status": "fail",
+            "expected": [
+                "django.contrib.sessions.tests.FileSessionTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.CacheSessionTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.CacheDBSessionTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.DatabaseSessionTests.test_session_load_does_not_create_record"
+            ],
+            "actual": []
+        },
+        "django_442": {
+            "status": "success",
+            "expected": [
+                "django.contrib.sessions.tests.FileSessionTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.DatabaseSessionWithTimeZoneTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.CacheSessionTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.CacheDBSessionWithTimeZoneTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.CacheDBSessionTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.DatabaseSessionTests.test_session_load_does_not_create_record"
+            ],
+            "actual": [
+                "django.contrib.sessions.tests.FileSessionTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.DatabaseSessionWithTimeZoneTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.CacheSessionTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.CacheDBSessionWithTimeZoneTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.CacheDBSessionTests.test_session_load_does_not_create_record",
+                "django.contrib.sessions.tests.DatabaseSessionTests.test_session_load_does_not_create_record"
+            ]
+        },
+        "django_444": {
+            "status": "success",
+            "expected": [
+                "utils_tests.test_text.TestUtilsText.test_truncate_chars_html_size_limit",
+                "utils_tests.test_text.TestUtilsText.test_truncate_words_html_size_limit"
+            ],
+            "actual": [
+                "utils_tests.test_text.TestUtilsText.test_truncate_words_html_size_limit",
+                "utils_tests.test_text.TestUtilsText.test_truncate_chars_html_size_limit"
+            ]
+        },
+        "django_445": {
+            "status": "success",
+            "expected": [
+                "utils_tests.test_text.TestUtilsText.test_truncate_chars_html_size_limit",
+                "utils_tests.test_text.TestUtilsText.test_truncate_words_html_size_limit"
+            ],
+            "actual": [
+                "utils_tests.test_text.TestUtilsText.test_truncate_words_html_size_limit",
+                "utils_tests.test_text.TestUtilsText.test_truncate_chars_html_size_limit"
+            ]
+        },
+        "uaa_1469": "apply_fail",
+        "uaa_1471": "apply_fail",
+        "uaa_961": "apply_fail",
+        "uaa_962": "apply_fail",
+        "uaa_968": "apply_fail",
+        "uaa_970": "apply_fail",
+        "uaa_971": "apply_fail",
+        "django_462": {
+            "status": "fail",
+            "expected": [
+                "admin_inlines.tests.TestReadOnlyChangeViewInlinePermissions.test_extra_inlines_are_not_shown",
+                "admin_inlines.tests.TestReadOnlyChangeViewInlinePermissions.test_inline_delete_buttons_are_not_shown",
+                "auth_tests.test_views.ChangelistTests.test_view_user_password_is_readonly",
+                "admin_inlines.tests.TestReadOnlyChangeViewInlinePermissions.test_submit_line_shows_only_close_button",
+                "admin_inlines.tests.TestReadOnlyChangeViewInlinePermissions.test_post_to_change_url_not_allowed",
+                "admin_inlines.tests.TestReadOnlyChangeViewInlinePermissions.test_inlines_are_rendered_as_read_only",
+                "admin_views.tests.AdminViewPermissionsTest.test_change_view"
+            ],
+            "actual": []
+        },
+        "django_465": {
+            "status": "fail",
+            "expected": ["utils_tests.test_html.TestUtilsHtml.test_strip_tags"],
+            "actual": []
+        },
+        "glance_468": {
+            "status": "fail",
+            "expected": [
+                "glance.tests.unit.v2.test_image_data_resource.TestImagesController.test_upload_non_existent_image_during_save_initiates_deletion",
+                "glance.tests.unit.test_domain_proxy.TestProxyRepoWrapping.test_save",
+                "glance.tests.unit.v1.test_api.TestGlanceAPI.test_delete_during_image_upload_by_admin",
+                "glance.tests.unit.test_quota.TestImagePropertyQuotas.test_save_image_with_image_property",
+                "glance.tests.unit.test_domain_proxy.TestProxyRepoPlain.test_save",
+                "glance.tests.unit.test_domain_proxy.TestProxyRepoWrapping.test_save_with_no_result",
+                "glance.tests.unit.test_quota.TestImagePropertyQuotas.test_save_image_unlimited_image_properties",
+                "glance.tests.unit.v1.test_api.TestGlanceAPI.test_delete_during_image_upload_by_normal_user"
+            ],
+            "actual": []
+        },
+        "tomcat_981": {
+            "status": "success",
+            "expected": ["testExceedMaxActiveStreams[0]"],
+            "actual": ["testExceedMaxActiveStreams[0]"]
+        },
+        "tomcat_980": {
+            "status": "fail",
+            "expected": ["testExceedMaxActiveStreams"],
+            "actual": []
+        },
+        "tomcat_983": {
+            "status": "success",
+            "expected": ["testCanceledPost"],
+            "actual": ["testCanceledPost"]
+        },
+        "django_472": "apply_fail",
+        "django_474": "apply_fail",
+        "django_476": "apply_fail",
+        "django_477": {
+            "status": "success",
+            "expected": ["template_tests.filter_tests.test_floatformat.FunctionTests.test_too_many_digits_to_render"],
+            "actual": ["template_tests.filter_tests.test_floatformat.FunctionTests.test_too_many_digits_to_render"]
+        },
+        "tomcat_993": {
+            "status": "success",
+            "expected": ["testTrailerHeaderNameNotTokenSwallowException"],
+            "actual": ["testTrailerHeaderNameNotTokenThrowException", "testTrailerHeaderNameNotTokenSwallowException"]
+        },
+        "tomcat_994": {
+            "status": "fail",
+            "expected": ["testTrailerHeaderNameNotTokenSwallowException"],
+            "actual": []
+        },
+        "django_484": {
+            "status": "success",
+            "expected": [
+                "file_storage.tests.DiscardingFalseContentStorageTests.test_file_save_abs_path",
+                "file_storage.tests.OverwritingStorageTests.test_file_save_abs_path",
+                "file_storage.tests.FileStorageTests.test_file_save_abs_path",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_storage_dangerous_paths_dir_name",
+                "file_storage.tests.CustomStorageTests.test_file_save_abs_path"
+            ],
+            "actual": [
+                "file_storage.tests.DiscardingFalseContentStorageTests.test_file_save_abs_path",
+                "file_storage.tests.OverwritingStorageTests.test_file_save_abs_path",
+                "file_storage.tests.FileStorageTests.test_file_save_abs_path",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_storage_dangerous_paths_dir_name",
+                "file_storage.tests.CustomStorageTests.test_file_save_abs_path"
+            ]
+        },
+        "django_485": {
+            "status": "success",
+            "expected": [
+                "file_storage.tests.DiscardingFalseContentStorageTests.test_file_save_abs_path",
+                "file_storage.tests.OverwritingStorageTests.test_file_save_abs_path",
+                "file_storage.tests.FileStorageTests.test_file_save_abs_path",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_storage_dangerous_paths_dir_name",
+                "file_storage.tests.CustomStorageTests.test_file_save_abs_path"
+            ],
+            "actual": [
+                "file_storage.tests.DiscardingFalseContentStorageTests.test_file_save_abs_path",
+                "file_storage.tests.OverwritingStorageTests.test_file_save_abs_path",
+                "file_storage.tests.FileStorageTests.test_file_save_abs_path",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_storage_dangerous_paths_dir_name",
+                "file_storage.tests.CustomStorageTests.test_file_save_abs_path"
+            ]
+        },
+        "xwiki-platform_1527": "apply_fail",
+        "django_528": {
+            "status": "success",
+            "expected": [
+                "db_functions.datetime.test_extract_trunc.DateFunctionWithTimeZoneTests.test_trunc_lookup_name_sql_injection",
+                "db_functions.datetime.test_extract_trunc.DateFunctionTests.test_trunc_lookup_name_sql_injection",
+                "db_functions.datetime.test_extract_trunc.DateFunctionTests.test_extract_lookup_name_sql_injection",
+                "db_functions.datetime.test_extract_trunc.DateFunctionWithTimeZoneTests.test_extract_lookup_name_sql_injection"
+            ],
+            "actual": [
+                "db_functions.datetime.test_extract_trunc.DateFunctionTests.test_trunc_lookup_name_sql_injection",
+                "django.db.utils.OperationalError: near \"from\": syntax",
+                "sqlite3.OperationalError: near \")\": syntax",
+                "db_functions.datetime.test_extract_trunc.DateFunctionTests.test_extract_lookup_name_sql_injection",
+                "db_functions.datetime.test_extract_trunc.DateFunctionWithTimeZoneTests.test_extract_lookup_name_sql_injection",
+                "db_functions.datetime.test_extract_trunc.DateFunctionWithTimeZoneTests.test_trunc_lookup_name_sql_injection",
+                "django.db.utils.OperationalError: near \")\": syntax",
+                "sqlite3.OperationalError: near \"from\": syntax"
+            ]
+        },
+        "django_530": {
+            "status": "fail",
+            "expected": ["validators.tests.TestValidators.test_validators"],
+            "actual": []
+        },
+        "django_531": {
+            "status": "success",
+            "expected": ["validators.tests.TestValidators.test_validators"],
+            "actual": ["validators.tests.TestValidators.test_validators"]
+        },
+        "node-tar_23": "apply_fail",
+        "node-tar_24": "apply_fail",
+        "django_539": "apply_fail",
+        "vite_31": {
+            "status": "success",
+            "expected": [
+                "playground/fs-serve/__tests__/deny/fs-serve-deny.spec.ts > main > **/deny/** should deny src/deny/deny.txt",
+                "playground/fs-serve/__tests__/deny/fs-serve-deny.spec.ts > main > **/deny/** should deny src/deny/.deny"
+            ],
+            "actual": [
+                "playground/fs-serve/__tests__/deny/fs-serve-deny.spec.ts > main > **/deny/** should deny src/deny/deny.txt",
+                "playground/fs-serve/__tests__/deny/fs-serve-deny.spec.ts > main > **/deny/** should deny src/deny/.deny"
+            ]
+        },
+        "vite_37": {
+            "status": "success",
+            "expected": [
+                "playground/fs-serve/__tests__/deny/fs-serve-deny.spec.ts > main > **/deny/** should deny src/deny/deny.txt",
+                "playground/fs-serve/__tests__/deny/fs-serve-deny.spec.ts > main > **/deny/** should deny src/deny/.deny"
+            ],
+            "actual": [
+                "playground/fs-serve/__tests__/deny/fs-serve-deny.spec.ts > main > **/deny/** should deny src/deny/deny.txt",
+                "playground/fs-serve/__tests__/deny/fs-serve-deny.spec.ts > main > **/deny/** should deny src/deny/.deny"
+            ]
+        },
+        "django_550": {
+            "status": "success",
+            "expected": ["expressions.test_queryset_values.ValuesExpressionsTests.test_values_expression_alias_sql_injection_json_field"],
+            "actual": ["expressions.test_queryset_values.ValuesExpressionsTests.test_values_expression_alias_sql_injection_json_field"]
+        },
+        "glance_554": {
+            "status": "success",
+            "expected": ["glance.tests.unit.test_store_location.TestStoreLocation.test_add_location_with_restricted_sources"],
+            "actual": ["glance.tests.unit.test_store_location.TestStoreLocation.test_add_location_with_restricted_sources"]
+        },
+        "django_558": {
+            "status": "fail",
+            "expected": ["i18n.tests.MiscTests.test_parse_spec_http_header"],
+            "actual": []
+        },
+        "django_559": {
+            "status": "fail",
+            "expected": ["i18n.tests.MiscTests.test_parse_spec_http_header"],
+            "actual": []
+        },
+        "django_562": "apply_fail",
+        "uaa_1076": {
+            "status": "success",
+            "expected": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/oauth/TokenRevocationEndpointTests.java"],
+            "actual": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/oauth/TokenRevocationEndpointTests.java"]
+        },
+        "uaa_1078": {
+            "status": "success",
+            "expected": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/oauth/TokenRevocationEndpointTests.java"],
+            "actual": ["/uaa/server/src/test/java/org/cloudfoundry/identity/uaa/oauth/TokenRevocationEndpointTests.java"]
+        },
+        "tomcat_1084": "apply_fail",
+        "uaa_1086": {
+            "status": "success",
+            "expected": [
+                "org.cloudfoundry.identity.uaa.invitations.InvitationsControllerTest > testAcceptInviteWithoutMatchingPasswords",
+                "org.cloudfoundry.identity.uaa.invitations.InvitationsControllerTest > missing_code",
+                "org.cloudfoundry.identity.uaa.mock.DefaultConfigurationTestSuite > org.cloudfoundry.identity.uaa.login.InvitationsServiceMockMvcTests.invalid_code",
+                "org.cloudfoundry.identity.uaa.invitations.InvitationsControllerTest > testAcceptInviteWithContraveningPassword",
+                "org.cloudfoundry.identity.uaa.invitations.InvitationsControllerTest > invalid_principal_id"
+            ],
+            "actual": [
+                "org.cloudfoundry.identity.uaa.invitations.InvitationsControllerTest > testAcceptInviteWithoutMatchingPasswords",
+                "org.cloudfoundry.identity.uaa.invitations.InvitationsControllerTest > missing_code",
+                "org.cloudfoundry.identity.uaa.mock.DefaultConfigurationTestSuite > org.cloudfoundry.identity.uaa.login.InvitationsServiceMockMvcTests.invalid_code",
+                "org.cloudfoundry.identity.uaa.invitations.InvitationsControllerTest > testAcceptInviteWithContraveningPassword",
+                "org.cloudfoundry.identity.uaa.invitations.InvitationsControllerTest > invalid_principal_id"
+            ]
+        },
+        "uaa_1088": {
+            "status": "fail",
+            "expected": [
+                "org.cloudfoundry.identity.uaa.invitations.InvitationsControllerTest > invalid_principal_id",
+                "org.cloudfoundry.identity.uaa.invitations.InvitationsControllerTest > testAcceptInviteWithContraveningPassword",
+                "org.cloudfoundry.identity.uaa.invitations.InvitationsControllerTest > testAcceptInviteWithoutMatchingPasswords",
+                "org.cloudfoundry.identity.uaa.mock.DefaultConfigurationTestSuite > org.cloudfoundry.identity.uaa.login.InvitationsServiceMockMvcTests.invalid_code",
+                "org.cloudfoundry.identity.uaa.invitations.InvitationsControllerTest > missing_code"
+            ],
+            "actual": ["org.cloudfoundry.identity.uaa.mock.DefaultConfigurationTestSuite > org.cloudfoundry.identity.uaa.login.InvitationsServiceMockMvcTests.invalid_code"]
+        },
+        "django_578": "error",
+        "django_582": {
+            "status": "success",
+            "expected": ["i18n.patterns.tests.URLTranslationTests.test_locale_not_interepreted_as_regex"],
+            "actual": ["i18n.patterns.tests.URLTranslationTests.test_locale_not_interepreted_as_regex"]
+        },
+        "django_590": {
+            "status": "success",
+            "expected": [
+                "forms_tests.widget_tests.test_clearablefileinput.ClearableFileInputTest.test_multiple_error",
+                "forms_tests.widget_tests.test_fileinput.FileInputTest.test_multiple_default",
+                "forms_tests.widget_tests.test_fileinput.FileInputTest.test_value_from_datadict_multiple",
+                "forms_tests.widget_tests.test_fileinput.FileInputTest.test_multiple_error"
+            ],
+            "actual": [
+                "forms_tests.widget_tests.test_clearablefileinput.ClearableFileInputTest.test_multiple_error",
+                "forms_tests.widget_tests.test_fileinput.FileInputTest.test_multiple_default",
+                "forms_tests.widget_tests.test_fileinput.FileInputTest.test_value_from_datadict_multiple",
+                "forms_tests.widget_tests.test_fileinput.FileInputTest.test_multiple_error"
+            ]
+        },
+        "django_592": {
+            "status": "success",
+            "expected": [
+                "forms_tests.widget_tests.test_clearablefileinput.ClearableFileInputTest.test_multiple_error",
+                "forms_tests.widget_tests.test_fileinput.FileInputTest.test_multiple_default",
+                "forms_tests.widget_tests.test_fileinput.FileInputTest.test_value_from_datadict_multiple",
+                "forms_tests.widget_tests.test_fileinput.FileInputTest.test_multiple_error"
+            ],
+            "actual": [
+                "forms_tests.widget_tests.test_fileinput.FileInputTest.test_multiple_default",
+                "forms_tests.widget_tests.test_fileinput.FileInputTest.test_multiple_error",
+                "forms_tests.widget_tests.test_clearablefileinput.ClearableFileInputTest.test_multiple_error",
+                "forms_tests.field_tests.test_filefield.MultipleFileFieldTest.test_file_multiple_validation",
+                "forms_tests.widget_tests.test_fileinput.FileInputTest.test_value_from_datadict_multiple"
+            ]
+        },
+        "qs_100": "apply_fail",
+        "django_606": {
+            "status": "success",
+            "expected": ["utils_tests.test_html.TestUtilsHtml.test_urlize_unchanged_inputs"],
+            "actual": ["utils_tests.test_html.TestUtilsHtml.test_urlize_unchanged_inputs"]
+        },
+        "django_617": {
+            "status": "success",
+            "expected": [
+                "regressiontests.admin_views.tests.AdminViewBasicTest.test_disallowed_to_field",
+                "regressiontests.admin_views.tests.CustomModelAdminTest.test_disallowed_to_field"
+            ],
+            "actual": [
+                "regressiontests.admin_views.tests.AdminViewBasicTest.test_disallowed_to_field",
+                "regressiontests.admin_views.tests.CustomModelAdminTest.test_disallowed_to_field"
+            ]
+        },
+        "django_618": {
+            "status": "success",
+            "expected": [
+                "regressiontests.admin_views.tests.AdminViewBasicTest.test_disallowed_to_field",
+                "regressiontests.admin_views.tests.CustomModelAdminTest.test_disallowed_to_field"
+            ],
+            "actual": [
+                "regressiontests.admin_views.tests.AdminViewBasicTest.test_disallowed_to_field",
+                "regressiontests.admin_views.tests.CustomModelAdminTest.test_disallowed_to_field"
+            ]
+        },
+        "django_620": {
+            "status": "fail",
+            "expected": [
+                "file_uploads.tests.MultiParserTests.test_sanitize_invalid_file_name",
+                "utils_tests.test_text.TestUtilsText.test_get_valid_filename",
+                "file_uploads.tests.FileUploadTests.test_upload_name_is_validated",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_filefield_dangerous_filename_dir",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_filefield_dangerous_filename",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_storage_dangerous_paths",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_storage_dangerous_paths_dir_name"
+            ],
+            "actual": []
+        },
+        "django_621": {
+            "status": "success",
+            "expected": [
+                "file_uploads.tests.MultiParserTests.test_sanitize_invalid_file_name",
+                "utils_tests.test_text.TestUtilsText.test_get_valid_filename",
+                "file_uploads.tests.FileUploadTests.test_upload_name_is_validated",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_filefield_dangerous_filename_dir",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_filefield_dangerous_filename",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_storage_dangerous_paths",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_storage_dangerous_paths_dir_name"
+            ],
+            "actual": [
+                "file_uploads.tests.MultiParserTests.test_sanitize_invalid_file_name",
+                "utils_tests.test_text.TestUtilsText.test_get_valid_filename",
+                "file_uploads.tests.DirectoryCreationTests.test_readonly_root",
+                "file_uploads.tests.FileUploadTests.test_upload_name_is_validated",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_filefield_dangerous_filename_dir",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_filefield_dangerous_filename",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_storage_dangerous_paths",
+                "file_storage.test_generate_filename.GenerateFilenameStorageTests.test_storage_dangerous_paths_dir_name"
+            ]
+        },
+        "django_644": "apply_fail",
+        "django_645": {
+            "status": "fail",
+            "expected": [
+                "django.contrib.auth.tests.views.LoginTest.test_security_check",
+                "regressiontests.utils.http.TestUtilsHttp.test_is_safe_url",
+                "django.contrib.auth.tests.views.LogoutTest.test_security_check"
+            ],
+            "actual": []
+        },
+        "glance_649": {
+            "status": "fail",
+            "expected": ["glance.tests.functional.v2.test_images.TestImages.test_permissions"],
+            "actual": []
+        },
+        "django_650": "apply_fail",
+        "django_651": "apply_fail",
+        "django_652": "apply_fail",
+        "keystone_672": {
+            "status": "success",
+            "expected": ["test_maintain_uuid_token_expiration"],
+            "actual": ["test_maintain_uuid_token_expiration"]
+        },
+        "node-tar_162": "apply_fail",
+        "node-tar_164": "apply_fail",
+        "django_676": "apply_fail",
+        "wagtail_677": "apply_fail",
+        "django_681": {
+            "status": "success",
+            "expected": ["auth_tests.test_hashers.TestUtilsHashPass.test_check_password_calls_make_password_to_fake_runtime.test_check_password_calls_make_password_to_fake_runtime"],
+            "actual": ["auth_tests.test_hashers.TestUtilsHashPass.test_check_password_calls_make_password_to_fake_runtime.test_check_password_calls_make_password_to_fake_runtime"]
+        },
+        "django_687": {
+            "status": "success",
+            "expected": ["queries.tests.QuerySetExceptionTests.test_order_by_escape_prevention"],
+            "actual": ["queries.tests.QuerySetExceptionTests.test_order_by_escape_prevention"]
+        },
+        "quarkus_700": {
+            "status": "fail",
+            "expected": [
+                "io.quarkus.resteasy.test.security.DefaultRolesAllowedJaxRsTest.shouldDenyUnannotatedOnParentClass",
+                "io.quarkus.resteasy.test.security.DenyAllJaxRsTest.shouldDenyUnannotatedOnParentClass"
+            ],
+            "actual": []
+        },
+        "tomcat_1214": {
+            "status": "success",
+            "expected": ["testNoHeaders"],
+            "actual": ["testNoHeaders"]
+        },
+        "tomcat_1215": {
+            "status": "success",
+            "expected": ["testNoHeaders"],
+            "actual": ["testNoHeaders"]
+        },
+        "keystone_192": "apply_fail",
+        "tomcat_1216": {
+            "status": "success",
+            "expected": ["testNoHeaders"],
+            "actual": ["testNoHeaders"]
+        },
+        "django_193": {
+            "status": "fail",
+            "expected": [
+                "django.contrib.auth.tests.views.PasswordResetTest.test_poisoned_http_host_admin_site",
+                "django.contrib.auth.tests.views.PasswordResetTest.test_poisoned_http_host"
+            ],
+            "actual": []
+        },
+        "quarkus_702": {
+            "status": "fail",
+            "expected": [
+                "io.quarkus.resteasy.reactive.server.test.security.DenyAllJaxRsTest.shouldDenyUnannotatedWithAnnotationTransformer",
+                "io.quarkus.resteasy.reactive.server.test.security.DenyAllJaxRsTest.shouldDenyUnannotatedOnParentClass",
+                "io.quarkus.resteasy.reactive.server.test.security.DenyAllJaxRsTest.shouldDenyUnannotatedOnInterface",
+                "io.quarkus.resteasy.reactive.server.test.security.DefaultRolesAllowedJaxRsTest.shouldDenyUnannotatedInterface",
+                "io.quarkus.resteasy.reactive.server.test.security.DefaultRolesAllowedJaxRsTest.shouldDenyUnannotatedParent"
+            ],
+            "actual": []
+        },
+        "tomcat_1222": {
+            "status": "success",
+            "expected": ["testInvalidContentLength01"],
+            "actual": ["testInvalidContentLength01"]
+        },
+        "tomcat_1226": {
+            "status": "success",
+            "expected": ["testInvalidContentLength01"],
+            "actual": ["testInvalidContentLength01"]
+        },
+        "django_206": {
+            "status": "success",
+            "expected": [
+                "regressiontests.file_storage.tests.FileStoragePathParsing.test_directory_with_dot",
+                "Regression test for #9610.",
+                "regressiontests.file_storage.tests.FileSaveRaceConditionTest.test_race_condition",
+                "modeltests.files.tests.FileStorageTests.test_files",
+                "regressiontests.file_storage.tests.FileStoragePathParsing.test_first_character_dot"
+            ],
+            "actual": [
+                "regressiontests.file_storage.tests.FileStoragePathParsing.test_directory_with_dot",
+                "Regression test for #9610.",
+                "regressiontests.file_storage.tests.FileSaveRaceConditionTest.test_race_condition",
+                "modeltests.files.tests.FileStorageTests.test_files",
+                "regressiontests.file_storage.tests.FileStoragePathParsing.test_first_character_dot"
+            ]
+        },
+        "django_207": {
+            "status": "success",
+            "expected": [
+                "regressiontests.file_storage.tests.FileStoragePathParsing.test_directory_with_dot",
+                "Regression test for #9610.",
+                "regressiontests.file_storage.tests.FileSaveRaceConditionTest.test_race_condition",
+                "modeltests.files.tests.FileTests.test_files",
+                "regressiontests.file_storage.tests.FileStoragePathParsing.test_first_character_dot"
+            ],
+            "actual": [
+                "regressiontests.file_storage.tests.FileStoragePathParsing.test_directory_with_dot",
+                "regressiontests.file_storage.tests.FileSaveRaceConditionTest.test_race_condition",
+                "Regression test for #9610.",
+                "modeltests.files.tests.FileTests.test_files",
+                "regressiontests.file_storage.tests.FileStoragePathParsing.test_first_character_dot"
+            ]
+        },
+        "uaa_1232": "apply_fail",
+        "django_211": {
+            "status": "fail",
+            "expected": [
+                "aggregation.tests.AggregateTestCase.test_alias_sql_injection",
+                "expressions.test_queryset_values.ValuesExpressionsTests.test_values_expression_alias_sql_injection"
+            ],
+            "actual": []
+        }
+    }
+}
