@@ -26,11 +26,7 @@ ollama pull llama3
 # 1. Generate patches (change model in line ~30 of script)
 python scripts/llm_agentless_pure.py
 
-# 2. Fix paths
-python scripts/fix_patches.py --patch_dir llm_agentless_patches --backup
-python scripts/fix_patch_paths.py --patch_dir llm_agentless_patches --backup
-
-# 3. Evaluate
+# 2. Evaluate
 python scripts/backport_run_evaluation.py --input final_backportbench.jsonl --patch_dir llm_agentless_patches --output results/agentless_results.json --workers 4 --debug
 ```
 
@@ -39,11 +35,7 @@ python scripts/backport_run_evaluation.py --input final_backportbench.jsonl --pa
 # 1. Generate patches (change model in line ~75 of script)
 python scripts/llm_oracle_pure.py
 
-# 2. Fix paths
-python scripts/fix_patches.py --patch_dir llm_oracle_patches --backup
-python scripts/fix_patch_paths.py --patch_dir llm_oracle_patches --backup
-
-# 3. Evaluate
+# 2. Evaluate
 python scripts/backport_run_evaluation.py --input final_backportbench.jsonl --patch_dir llm_oracle_patches --output results/oracle_results.json --workers 4 --debug
 ```
 
@@ -76,4 +68,5 @@ Results go in `results/` folder as JSON files.
 
 - 202 instances takes ~2-3 hours per model
 - Clean Docker between models: `docker system prune -a`
+
 - Use `--workers 4` to speed up (or `--workers 1` if low RAM)
