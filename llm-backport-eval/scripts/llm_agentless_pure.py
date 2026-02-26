@@ -54,7 +54,7 @@ Output ONLY a JSON array: ["path1", "path2"]"""
 
     try:
         response = ollama.chat(
-            model='qwen2.5-coder:7b',
+            model='llama3',
             messages=[
                 {'role': 'system', 'content': system_msg},
                 {'role': 'user', 'content': user_prompt}
@@ -121,7 +121,7 @@ Start your response with the first line of code:
 
     try:
         response = ollama.chat(
-            model='qwen2.5-coder:7b',
+            model='llama3',
             messages=[
                 {'role': 'system', 'content': system_msg},
                 {'role': 'user', 'content': user_prompt}
@@ -287,6 +287,7 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(description="100% LLM Agentless")
+    parser.add_argument("--start", type=int, default=0)
     parser.add_argument("--limit", type=int, default=202)
     parser.add_argument("--input", default='final_backportbench.jsonl')
     parser.add_argument("--output_dir", default="llm_agentless_patches")
@@ -297,7 +298,7 @@ if __name__ == "__main__":
     print("="*70)
     print("100% LLM AGENTLESS BACKPORTER")
     print("Pure LLM: Localization + Repair + Post-Processing")
-    print(f"Processing: {args.limit} instances")
+    print(f"Processing: instances {args.start} to {args.limit}")
     print("="*70)
     print()
     
@@ -306,7 +307,7 @@ if __name__ == "__main__":
     with open(args.input, 'r', encoding='utf-8') as f:
         instances = [json.loads(line) for line in f if line.strip()]
     
-    for i, data in enumerate(instances[:args.limit]):
+    for i, data in enumerate(instances[args.start:args.limit], start=args.start):
         instance_id = data['instance_id']
         repo = data['repo']
         source_patch = data.get('hints', '')
@@ -327,6 +328,6 @@ if __name__ == "__main__":
             stats['fail'] += 1
     
     print("\n" + "="*70)
-    print(f"RESULTS: {stats['success']}/{args.limit} successful")
+    print(f"RESULTS: {stats['success']}/{args.limit - args.start} successful")
     print(f"Saved to: {args.output_dir}/")
     print("="*70)
